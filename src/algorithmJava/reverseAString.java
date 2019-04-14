@@ -1,6 +1,6 @@
-package practiceJava;
+package algorithmJava;
 
-public class reverseStringByWord {
+public class reverseAString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,8 +8,6 @@ public class reverseStringByWord {
 		
 		System.out.println(rev.reverseByStringWord("Hello World"));
 		System.out.println(rev.reverseStringByChar("Hello World"));
-		
-		
 	}
 
 }

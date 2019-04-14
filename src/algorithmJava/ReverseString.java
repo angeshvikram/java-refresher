@@ -1,4 +1,4 @@
-package practiceJava;
+package algorithmJava;
 
 public class ReverseString {
 	public String reverseByStringWord(String _str) {
@@ -23,6 +23,5 @@ public class ReverseString {
 			revStr =  revStr + _str.charAt(i);
 		}
 		return revStr;
-	}
-	
+	}	
 }

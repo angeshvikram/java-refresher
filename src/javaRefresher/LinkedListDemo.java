@@ -42,7 +42,35 @@ public class LinkedListDemo {
 		
 		List<Integer> lList = new LinkedList<Integer>();
 		List<Integer> aList = new ArrayList<Integer>();
+		
+		runDuration(aList, "Array List");
+		runDuration(lList, "Linked List");
 
 	}
 
+	public static void runDuration(List<Integer> list, String listType) {
+		System.out.println("\nBeginning of the duration method for " + listType);
+		for (int i=0; i<100000; i++) {
+			list.add(i);
+		}
+		int size = list.size();
+		int elementToAdd = size + 100000;
+		long startTime = System.currentTimeMillis();
+		for (int i = size; i < elementToAdd; i++) {
+			// list.add(i);
+			list.add(0, i);
+		}
+		
+/*		for (int i=90000; i<92000; i++) {
+			list.remove(i);
+		}
+		
+		for (int i=0; i<100; i++) {
+			list.remove(i);
+		}*/
+		
+		long endTime = System.currentTimeMillis();
+		long duration = endTime - startTime;
+		System.out.println("Duration of the list " + listType + " is " + duration + " ms");
+	}
 }
