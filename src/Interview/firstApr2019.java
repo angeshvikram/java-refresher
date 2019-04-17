@@ -57,6 +57,7 @@ public class firstApr2019 {
 		q.add(2);
 		q.add(3);
 		q.add(4);
+		
 		System.out.println(q.size());
 		q.poll();
 
