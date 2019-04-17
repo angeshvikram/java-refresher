@@ -1,6 +1,6 @@
 package designPatterns;
 
-public class builderDemo {
+public class AADesignPatternsBuilderDemo {
 	
 	
 	public static class Builder {
@@ -13,8 +13,8 @@ public class builderDemo {
 			
 		}
 		
-		public builderDemo build(){
-			return new builderDemo (this);
+		public AADesignPatternsBuilderDemo build(){
+			return new AADesignPatternsBuilderDemo (this);
 		}
 		
 		public Builder bread (String bread) {
@@ -43,7 +43,7 @@ public class builderDemo {
 	private final String meat;
 	
 	
-	private builderDemo(Builder builder) {
+	private AADesignPatternsBuilderDemo(Builder builder) {
 		this.bread = builder.bread;
 		this.condiments = builder.condiments;
 		this.dressing = builder.dressing;

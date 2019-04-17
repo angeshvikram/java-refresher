@@ -1,6 +1,6 @@
 package designPatterns;
 
-public class singletonDemo {
+public class AADesignPatternsSingletonDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
