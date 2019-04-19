@@ -13,7 +13,9 @@ public class stringMethod {
 		String str4 = "World";
 		String str6 = "";
 		String str7 = "Some spaces            ";
+		String str8 = "Hello8";
 		
+		System.out.println(Integer.parseInt(String.valueOf(str8.charAt(str8.length()-1))));
 		System.out.println(str1.length());
 		System.out.println(str1.charAt(2));
 		System.out.println(str1.concat(" This is the appended string"));
@@ -29,6 +31,7 @@ public class stringMethod {
 		System.out.println(str2.compareTo(str5));
 		System.out.println(str2.equals(str3));
 		System.out.println(str2.equals(str4));
+		
 		
 		
 		System.out.println(str1.indexOf("hi"));
