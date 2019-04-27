@@ -52,7 +52,7 @@ public class Anagram {
 	      System.out.println(string);
 	    }
 	    
-	    System.out.println("Is it an Anagram ? Answer: "+isAnagram("CATA","CTAA"));
+	    System.out.println("Is it an Anagram CATA\",\"CTAA. Answer: "+isAnagram("CATA","CTAA"));
 	  }
 
 }

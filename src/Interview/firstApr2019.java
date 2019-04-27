@@ -50,13 +50,24 @@ public class firstApr2019 {
 		Set<String> tSet = new TreeSet<String>();
 		// HashSet - Does not maintain order
 		Set<String> set = new HashSet<String>();
+		Set<String> aset = new HashSet<String>();
+		Set<String> vset = new HashSet<String>();
 		
+		tSet.addAll(set);
+		aset.addAll(set);
 		
+		List<String> nameBob = new ArrayList<>();
+
 		Stack <Character> tempStack = new Stack<Character>();
 		
 		
 		Queue<Integer> q = new LinkedList<Integer>();
+		Stack <String> tStack = new Stack<String>();
 			
+		Math.random();
+		
+		String str = "abc";
+		
 		q.add(1);
 		q.add(2);
 		q.add(3);
